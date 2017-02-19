@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		ADA6AE171E59975A0099B257 /* Icon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Icon; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA6AE171E59975A0099B257 /* resize_icon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = resize_icon; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA6AE1A1E59975A0099B257 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +49,7 @@
 		ADA6AE181E59975A0099B257 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ADA6AE171E59975A0099B257 /* Icon */,
+				ADA6AE171E59975A0099B257 /* resize_icon */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,9 +65,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ADA6AE161E59975A0099B257 /* Icon */ = {
+		ADA6AE161E59975A0099B257 /* resize_icon */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ADA6AE1E1E59975A0099B257 /* Build configuration list for PBXNativeTarget "Icon" */;
+			buildConfigurationList = ADA6AE1E1E59975A0099B257 /* Build configuration list for PBXNativeTarget "resize_icon" */;
 			buildPhases = (
 				ADA6AE131E59975A0099B257 /* Sources */,
 				ADA6AE141E59975A0099B257 /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = Icon;
+			name = resize_icon;
 			productName = Icon;
-			productReference = ADA6AE171E59975A0099B257 /* Icon */;
+			productReference = ADA6AE171E59975A0099B257 /* resize_icon */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ADA6AE121E59975A0099B257 /* Build configuration list for PBXProject "Icon" */;
+			buildConfigurationList = ADA6AE121E59975A0099B257 /* Build configuration list for PBXProject "resize_icon" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -111,7 +111,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ADA6AE161E59975A0099B257 /* Icon */,
+				ADA6AE161E59975A0099B257 /* resize_icon */,
 			);
 		};
 /* End PBXProject section */
@@ -168,7 +168,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -210,7 +210,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -220,6 +220,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = K84E4S7G4C;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -229,6 +230,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = K84E4S7G4C;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -237,7 +239,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ADA6AE121E59975A0099B257 /* Build configuration list for PBXProject "Icon" */ = {
+		ADA6AE121E59975A0099B257 /* Build configuration list for PBXProject "resize_icon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ADA6AE1C1E59975A0099B257 /* Debug */,
@@ -246,7 +248,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ADA6AE1E1E59975A0099B257 /* Build configuration list for PBXNativeTarget "Icon" */ = {
+		ADA6AE1E1E59975A0099B257 /* Build configuration list for PBXNativeTarget "resize_icon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ADA6AE1F1E59975A0099B257 /* Debug */,
