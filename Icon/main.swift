@@ -86,10 +86,16 @@ func resize(image: NSImage, size destSize: CGSize) -> NSImage? {
 }
 
 func writeToFile(image: NSImage, url: URL) {
-    guard let data: Data = image.tiffRepresentation else {
+    guard let _data: Data = image.tiffRepresentation, let png = NSBitmapImageRep(data: _data) else {
         print(#function, #line, "data get failed")
         return
     }
+    
+    guard let data = png.representation(using: .png, properties: [:]) else {
+        print(#function, "png convert failed")
+        return
+    }
+    
     do {
         try data.write(to: url, options: Data.WritingOptions.atomicWrite)
         print("saved: \(url)")
